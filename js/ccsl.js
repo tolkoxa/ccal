@@ -1,5 +1,7 @@
 let height = document.querySelector('#height');
 let weight = document.querySelector('#weight');
+let sex = document.querySelector('#sex');
+const coefficient = 0;
 
 height.onfocus = () => {
     height.placeholder = '';
